@@ -12,7 +12,7 @@ Skill for developing private eERC (Encrypted ERC) tokens on Avalanche with real 
 
 ### Windsurf (Recommended)
 ```bash
-npx skills add TincoNomad/eerc-avalanche-skill
+npx skills add TincoNomad/avalanche-eerc20-skill
 ```
 
 ### Other Platforms
