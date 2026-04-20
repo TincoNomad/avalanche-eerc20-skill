@@ -16,11 +16,9 @@ npx skills add TincoNomad/avalanche-eerc20-skill
 ```
 
 ### Other Platforms
-The skill content in `SKILL.md` and `references/` is **platform-agnostic** and can be used with any AI assistant (Claude Code, Cursor, Copilot, etc.). While auto-activation is Windsurf-specific, you can:
+The skills CLI automatically generates platform-specific files after installation. When you run `npx skills add`, it will ask which platforms you want to support and create the appropriate files (`.cursorrules`, `CLAUDE.md`, etc.) automatically.
 
-1. Copy the relevant sections from `SKILL.md` into your agent's context
-2. Reference the technical documentation in `references/` as needed
-3. Follow the 6-step workflow manually
+The core content in `SKILL.md` and `references/` remains platform-agnostic and serves as the source for all generated platform files.
 
 ## Example Prompts
 
@@ -83,13 +81,6 @@ Contributions are welcome! Here's how to help improve this skill:
 
 **v1.0.0** — Core eERC workflow and documentation
 
-### Roadmap
-
-- [ ] Auto-activation for Cursor (`.cursorrules`)
-- [ ] Auto-activation for Claude Code (`CLAUDE.md`)
-- [ ] Auto-activation for GitHub Copilot
-- [ ] Additional deployment examples (L1, Subnet)
-- [ ] Integration guides for common wallets
 
 ## Status
 
